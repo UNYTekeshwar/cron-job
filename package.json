@@ -1,15 +1,17 @@
 {
-  "name": "digital-ocean",
+  "name": "my-cron-task",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
+   "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "job": "node job.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^5.1.0"
+    "dotenv": "^17.2.2",
+    "node-fetch": "^3.3.2"
   }
 }
